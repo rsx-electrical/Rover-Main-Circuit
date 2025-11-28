@@ -2168,6 +2168,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "180A"
+		(exclude_from_sim no)
+		(at 149.352 128.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0068982f-f606-488e-ac9e-9f6960f77d38")
+	)
+	(text "160A"
+		(exclude_from_sim no)
+		(at 142.494 81.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3052dfa8-7549-485d-9c72-53abf9eb3ae5")
+	)
+	(text "500A Contact Rating\n40 ohms Coil Resistance"
+		(exclude_from_sim no)
+		(at 112.776 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "922a0a39-d995-4e22-bc6d-2ae40a29f2f4")
+	)
+	(text "ARM\n40A expected \nmax current"
+		(exclude_from_sim no)
+		(at 133.604 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6713606-57cc-4c47-8ab9-e1fe892f6d2d")
+	)
+	(text "Brushless Motors\n30A expected max \ncurrent"
+		(exclude_from_sim no)
+		(at 60.96 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0d7c12c-1d2c-48cb-8e42-08c051d7171f")
+	)
 	(text_box "TPLink\nJetson (2.5A max)"
 		(exclude_from_sim no)
 		(at 304.8 85.09 0)
@@ -2268,7 +2318,7 @@
 		)
 		(uuid "840f5bc5-87f4-4cda-b799-4d68d71a0ca3")
 	)
-	(text_box "ESTOP CIRCUIT"
+	(text_box "ESTOP CIRCUIT (UNDER 2A)"
 		(exclude_from_sim no)
 		(at 78.74 205.74 0)
 		(size 81.28 43.18)
@@ -3544,6 +3594,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "ff5b311d-bf2c-4f73-a9e0-53c5765d666d")
+	)
+	(label "GND BUS (180A)"
+		(at 173.99 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a6b1e97-5006-40a5-8a8e-b795044f83a3")
 	)
 	(label "BATT+"
 		(at 210.82 53.34 0)
